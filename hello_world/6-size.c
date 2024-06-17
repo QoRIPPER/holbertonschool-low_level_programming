@@ -8,6 +8,6 @@
 
 int main(void)
 {
-printf("char: %zu\nshort: %zu\nint: %zu\nlong:");
-sizeof(char), sizeof(short), sizeof(int), sizeof(long);
+printf ("sizeof int is %zu\n", sizeof(int));
+printf ("sizeof long is %zu\n", sizeof(long));
 }
