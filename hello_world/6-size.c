@@ -12,4 +12,5 @@ printf("sizeof int is %zu\n", sizeof(int));
 printf("sizeof long is %zu\n", sizeof(long));
 printf("sizeof float is %zu\n", sizeof(float));
 printf("sizeof char is %zu\n", sizeof(char));
+return (0);
 }
