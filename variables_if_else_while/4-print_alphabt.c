@@ -3,23 +3,22 @@
 /**
  * main - Entry point
  *
- * Description: Prints the alphabet in lowercase, excluding 'q' and 'e'
- * using only putchar function twice.
- *
+ * Description: Prints the alphabet in lowercase, excluding 'e' and 'q'
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char ch;
+	char letter;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-	if (ch != 'q' && ch != 'e')
-	{
-	putchar(ch);
+		if (letter != 'e' && letter != 'q')
+		{
+			putchar(letter);
+		}
 	}
-	{
-	putchar('\n');
+
+	putchar('\n');  /* Print a new line after the alphabet */
 
 	return (0);
 }
