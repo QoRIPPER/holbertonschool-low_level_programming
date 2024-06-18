@@ -15,8 +15,8 @@ int main(void)
 {
 	int n;
 
-	srand(time(0));  /* Seed the random number generator */
-	n = rand() - RAND_MAX / 2;  /* Generate a random number */
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 
 	printf("The number %d ", n);
 
