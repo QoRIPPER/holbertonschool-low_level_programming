@@ -3,14 +3,10 @@
 #include <time.h>
 
 /**
-* main - Entry point
-*
-* Description:
-*   This program generates a random number and prints whether
-*   the number is positive, negative, or zero.
-*
-* Return: Always 0 (Success)
-*/
+ * main - Entry point
+ * Description: Generates a random number.
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
@@ -18,20 +14,14 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	printf("The number %d ", n);
+	printf("%d is ", n);
 
 	if (n > 0)
-	{
-	printf("is positive\n");
-	}
+	printf("positive\n");
 	else if (n == 0)
-	{
-	printf("is zero\n");
-	}
+	printf("zero\n");
 	else
-	{
-	printf("is negative\n");
-	}
+	printf("negative\n");
 
 	return (0);
 }
