@@ -4,12 +4,12 @@
 *Description: lelo
 *Return: lelo
 */
+/*function prototype*/
 int _putchar(char c);
 
 int main(void)
 {
-	char message [] = "_putchar\n";
-	int i = o;
+	char message[] = "_putchar\n";
 return (0);
 
 }
