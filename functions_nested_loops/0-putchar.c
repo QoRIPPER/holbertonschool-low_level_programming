@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 /**
 *main - lelo
 *_putchar - The character to print
