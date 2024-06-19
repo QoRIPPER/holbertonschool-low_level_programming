@@ -1,16 +1,10 @@
-#include <stdio.h>
+#include <main.h>
 /**
 *main - lelo
 *_putchar - The character to print
 *Return: lelo
-* @c: The character to print
 */
 /*function prototype*/
-int _putchar(char c)
-{
-
-	return write(1, &c, 1);
-}
 int main(void)
 {
 	_putchar('_');
