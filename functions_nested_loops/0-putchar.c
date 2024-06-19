@@ -1,10 +1,9 @@
-#include <main.h>
+#include <stdio.h>
 /**
 *main - lelo
 *_putchar - The character to print
 *Return: lelo
 */
-/*function prototype*/
 int main(void)
 {
 	_putchar('_');
