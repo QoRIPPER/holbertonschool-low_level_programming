@@ -33,6 +33,6 @@ for (i = 1; i <= 100; i++)
 	printf("");
 	}
 	}
-prinf("\n");
+printf("\n");
 return (0);
 }
