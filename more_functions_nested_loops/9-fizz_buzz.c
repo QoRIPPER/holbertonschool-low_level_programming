@@ -1,15 +1,18 @@
 #include <stdio.h>
 #include "main.h"
 /**
+ * main -lelelo
+ * Return: lelo band
  * fizzbuzz - leleloo
  */
 
-void fizzbuzz(void)
+int main(void)
 {
 int i;
-	for (int i = 1; i <= 100; i++)
+
+for (i = 1; i <= 100; i++)
 	{
-	if (i % 3 == 0 && i % 5 == 0)
+	if ((i % 3 == 0 && i % 5 == 0))
 	{
 	printf("FizzBuzz ");
 	}
@@ -25,16 +28,11 @@ int i;
 	{
 	printf("%d ", i);
 	}
+	if (i != 100)
+	{
+	printf("");
 	}
-	printf("\n");
-}
-/**
- * main - lelelo
- * Return: cookery
- */
-
-int main(void)
-{
-	fizzbuzz();
-	return (0);
+	}
+prinf("\n");
+return (0);
 }
