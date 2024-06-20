@@ -26,7 +26,7 @@ for (i = 1; i <= 100; i++)
 	}
 	else
 	{
-	printf("%d ", i);
+	printf("%d", i);
 	}
 	if (i != 100)
 	{
