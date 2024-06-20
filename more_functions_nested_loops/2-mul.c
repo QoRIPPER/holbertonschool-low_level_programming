@@ -8,11 +8,5 @@
 */
 int mul(int a, int b)
 {
-	int result = a * b;
-
-print_number(result);
-
-_putchar('\n');
-
-return (result);
+return (a * b);
 }
